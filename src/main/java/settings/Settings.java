@@ -8,6 +8,7 @@ import java.io.File;
 public class Settings {
 
     public final Database database;
+    public final Server server;
 
     public Settings() throws ConfigurationException {
 
@@ -23,6 +24,11 @@ public class Settings {
                 config.getInt("DB_PORT"),
                 config.getString("DB_NAME")
         );
+
+        this.server = new Server(
+                config.getInt("SERVER_PORT"),
+                config.getString("SERVER_FRAMEWORK")
+        );
     }
     public record Database(
             String user,
@@ -32,4 +38,9 @@ public class Settings {
             int    port,
             String name
     ) {}
+
+    public record Server(
+            int port,
+            String framework
+    ){}
 }
