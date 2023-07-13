@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3337ac33-3247-4a1a-83d4-92551eb6dfc9" name="Changes" comment="import statements unused deleted and using enhanced switch statements">
+    <list default="true" id="3337ac33-3247-4a1a-83d4-92551eb6dfc9" name="Changes" comment="SqlConnection class with its method for return a Connection interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/internal/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internal/models/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/internal/repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internal/repository/MovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/internal/repository/MysqlMovieRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internal/repository/MysqlMovieRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/internal/rest/JerseyMovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internal/rest/JerseyMovieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/internal/rest/JerseyRestApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internal/rest/JerseyRestApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/internal/rest/RestAppFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/internal/rest/RestAppFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/settings/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/settings/Settings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,21 +122,7 @@
       <option name="project" value="LOCAL" />
       <updated>1688952706520</updated>
     </task>
-    <task id="LOCAL-00002" summary="RestApp interface and implementation JerseyRestApp in jersey framework.">
-      <created>1689214733570</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1689214733570</updated>
-    </task>
-    <task id="LOCAL-00003" summary="import statements unused deleted and using enhanced switch statements">
-      <created>1689215118992</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1689215118992</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -170,9 +153,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my very first commit in a project of java" />
-    <MESSAGE value="RestApp interface and implementation JerseyRestApp in jersey framework." />
-    <MESSAGE value="import statements unused deleted and using enhanced switch statements" />
-    <option name="LAST_COMMIT_MESSAGE" value="import statements unused deleted and using enhanced switch statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="my very first commit in a project of java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
