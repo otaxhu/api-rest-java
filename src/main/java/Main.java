@@ -1,12 +1,9 @@
-import internal.models.Movie;
 import internal.repository.MovieRepositoryFactory;
 import internal.repository.RepositoryException;
 import internal.rest.RestAppException;
 import internal.rest.RestAppFactory;
 import org.apache.commons.configuration2.ex.ConfigurationException;
 import settings.Settings;
-
-import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
