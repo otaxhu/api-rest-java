@@ -1,6 +1,5 @@
 import internal.repository.MovieRepositoryFactory;
 import internal.repository.MovieRepositoryFactoryException;
-import internal.repository.RepositoryInternalException;
 import internal.rest.RestAppException;
 import internal.rest.RestAppFactory;
 import internal.rest.RestAppFactoryException;
